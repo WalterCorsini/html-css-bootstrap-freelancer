@@ -1,0 +1,74 @@
+/* common */
+.bg_tiffany{
+    background-color: rgb(26, 188, 156);
+}
+
+
+/* header */
+.header_container{
+    background-color: rgb(44, 62, 80);
+    padding: 20px;
+}
+
+/* hero */
+
+.ms_hero{
+    width: 100%;
+    text-align: center;
+}
+
+.hero-img img{
+    width: 70%;
+    max-width: 361px;
+}
+
+/* icon hero */
+.hero-icon{
+    display: inline-block;
+    font-size: 50px;
+}
+
+.line{
+    position: relative;
+    left: 34px;    
+}
+
+.line_2{
+    position: relative;
+    left: 17px;    
+}
+
+.line_5{
+    position: relative;
+    right: 17px;    
+}
+
+.line_6{
+    position: relative;
+    right: 34px;    
+}
+
+.ms_title{
+    font-size: 3rem;
+}
+
+.ms_text-hero{
+    font-size: 1.4rem;
+    padding: 0;
+}
+
+
+
+
+/* debug */
+.ms_col{
+    background-color: azure;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .ms_header{
+    width: 80%;
+    }
+}

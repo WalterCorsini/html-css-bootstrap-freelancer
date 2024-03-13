@@ -1,29 +1,25 @@
+
 /* common */
 .bg_tiffany{
     background-color: rgb(26, 188, 156);
 }
 
-
-/* header */
-.header_container{
+.bg_darkgrey{
     background-color: rgb(44, 62, 80);
-    padding: 20px;
 }
 
-/* hero */
+.text_darkgrey{
+    color: rgb(44, 62, 80);
 
-.ms_hero{
-    width: 100%;
-    text-align: center;
+img {
+    max-width: 100%;
 }
 
-.hero-img img{
-    width: 70%;
-    max-width: 361px;
+    /* common icon */
+
 }
 
-/* icon hero */
-.hero-icon{
+.star-icon{
     display: inline-block;
     font-size: 50px;
 }
@@ -47,6 +43,15 @@
     position: relative;
     right: 34px;    
 }
+/* /icon */
+
+
+
+/* hero */
+
+.ms_hero{
+    text-align: center;
+}
 
 .ms_title{
     font-size: 3rem;
@@ -57,8 +62,19 @@
     padding: 0;
 }
 
+.hero-img img{
+    max-width: 461px;
+}
+/* section portfolio */
+.ms_portfolio{
+    padding: 0;
+}
 
 
+.portfolio h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
 
 /* debug */
 .ms_col{
@@ -66,9 +82,22 @@
 }
 
 
+@media screen and(min-width: 768px){
+    .ms_portfolio{
+        width: 80%;
+    }
+
+}
+
 
 @media screen and (min-width: 992px) {
     .ms_header{
     width: 80%;
     }
+
+    .ms_portfolio{
+        width: 80%;
+    }
+
+
 }

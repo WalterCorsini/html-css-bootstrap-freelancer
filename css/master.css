@@ -64,10 +64,9 @@ a{
 
 .ms_header{
     width: 100%;
-    max-width: 768px;
 }
 
-.ms_header row{
+.ms_header .row{
     width: 100%;
     padding: 0;
     margin: 0;
@@ -79,14 +78,17 @@ a{
 }
 
 .nav_col h2{
-    font-size: clamp(10px, 2.3vw, 30px);
+    font-size: clamp(15px, 4vw, 40px);
 }
 
 /* section hero */
 
-.section_hero{
+.section_hero .container{
+    width: 100%;
     text-align: center;
 }
+
+
 
 .ms_title{
     font-size: 3rem;
@@ -157,8 +159,15 @@ ms_contact-me{
     padding: 20px 0;
 }
 
+.section_contact-me input{
+    border: 0;
+    outline: none;
+    color: rgb(44, 62, 80);;
+
+}
+
 .section_contact-me hr{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -172,9 +181,11 @@ ms_contact-me{
 
 .contact-me-button{
     margin-top: 20px;
-    width: 100%;
-    margin-left: 120px;
     margin-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
 
@@ -194,8 +205,23 @@ ms_contact-me{
     gap: 10px;
 }
 
+
+.section_prefooter i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
 .ms_section-prefooter .col-6{
     margin: 0 auto;
+}
+
+/* footer */
+
+section_footer span{
+    font-weight: bold;
 }
 
 
@@ -219,13 +245,14 @@ ms_contact-me{
 
     .about-text{
         display: flex;
-        width: 80%;
+        width: 60%;
+        gap: 30px;
         margin: 0 auto;
     }
 
     .section_contact-me hr,
     .section_contact-me ul{
-        width: 80%;
+        width: 60%;
 }
 
 .section_contact-me .star-icon{
@@ -242,15 +269,12 @@ ms_contact-me{
 
 }
 
-
+}
 
 @media screen and (min-width: 992px) {
-    .ms_header{
-    width: 80%;
-    }
 
     .ms_portfolio{
-        width: 80%;
+        width: 50%;
     }
 
 

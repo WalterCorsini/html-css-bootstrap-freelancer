@@ -232,6 +232,17 @@ ms_contact-me{
     font-size: 50px;
 }
 
+.section_prefooter .row{
+    align-items: center;
+}
+
+.section_prefooter .row .col-md-3{
+    padding: 0;
+    margin: 0
+
+}
+
+
 
 @media screen and (min-width: 992px) {
     .ms_header{

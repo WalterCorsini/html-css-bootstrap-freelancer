@@ -4,8 +4,16 @@
     background-color: rgb(26, 188, 156);
 }
 
+.text_tiffany{
+    color: rgb(26, 188, 156);
+}
+
 .bg_darkgrey{
     background-color: rgb(44, 62, 80);
+}
+
+.bg_grey{
+    background-color: rgb(58, 84, 109);
 }
 
 .text_darkgrey{
@@ -169,6 +177,27 @@ ms_contact-me{
     margin-bottom: 40px;
     
 }
+
+/* section prefooter */
+.section_prefooter {
+    width:100%;
+}
+
+.ms_section-prefooter{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section_prefooter ul{
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+.ms_section-prefooter .col-6{
+    margin: 0 auto;
+}
+
 
 @media screen and (min-width: 768px){
     .menu-ham{

@@ -14,7 +14,10 @@
 img {
     max-width: 100%;
 }
-
+a{
+    color: black;
+    background-color: transparent;
+}
     /* common icon */
 
 }
@@ -45,9 +48,33 @@ img {
 }
 /* /icon */
 
+/* section header */
 
+.section_header{
+    width: 100%;
+}
 
-/* hero */
+.ms_header{
+    width: 100%;
+    max-width: 768px;
+}
+
+.ms_header row{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_col a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav_col h2{
+    font-size: clamp(10px, 2.3vw, 30px);
+}
+
+/* section hero */
 
 .section_hero{
     text-align: center;
@@ -65,6 +92,11 @@ img {
 .hero-img img{
     max-width: 461px;
 }
+
+.nav-right{
+    display: none;
+}
+
 /* section portfolio */
 .ms_portfolio{
     padding: 0;
@@ -76,13 +108,18 @@ img {
     font-weight: 700;
 }
 
-/* debug */
-.nav_col{
-    background-color: azure;
-}
+/* section about */
 
 
-@media screen and(min-width: 768px){
+@media screen and (min-width: 768px){
+    .menu-ham{
+        display: none;
+    }
+    .nav-right{
+        display: block;
+        background-color: azure;
+    }
+   
     .ms_portfolio{
         width: 80%;
     }

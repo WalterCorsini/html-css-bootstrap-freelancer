@@ -72,8 +72,14 @@ a{
 }
 
 .section_header li{
+    padding: 10px;
     color: white;
     font-weight: bold;
+    transition: .5s;
+}
+
+.section_header li:hover{
+    background-color: rgb(255, 255, 255, 0.1);
 }
 
 .ms_header{
@@ -166,10 +172,13 @@ a{
 
 .section_about button{
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
     padding: .3rem 1rem;
-    color: white;
+}
+
+.section_about button:hover{
+    background-color: rgba(0,0,0, 0.1);
 }
 
 /* section contact-me */
@@ -218,6 +227,10 @@ ms_contact-me{
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;  
+}
+
+.contact-me-button button:hover{
+    background-color: rgb(52, 226, 191);
 }
 
 /* section prefooter */

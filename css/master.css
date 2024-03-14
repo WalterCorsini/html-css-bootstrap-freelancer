@@ -147,9 +147,6 @@ a{
     width: 90%;
 }
 
-.section_portfolio .row_star{
-}
-
 .section_portfolio h2{
     font-size: 3rem;
     font-weight: 700;
@@ -166,8 +163,6 @@ a{
     width: 80%;
     margin: 0 auto;
 }
-
-
 
 .section_about button{
     background-color: transparent;
@@ -201,8 +196,6 @@ ms_contact-me{
 .section_contact-me input{
     border: 0;
     outline: none;
-    color: rgb(44, 62, 80);;
-
 }
 
 .section_contact-me hr{
@@ -224,8 +217,7 @@ ms_contact-me{
     width: 60%;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
 
 /* section prefooter */
@@ -259,7 +251,7 @@ ms_contact-me{
 
 /* footer */
 
-section_footer span{
+.section_footer span{
     font-weight: bold;
 }
 
@@ -300,15 +292,14 @@ section_footer span{
         margin: 0 auto;
     }
 
-.section_prefooter .row{
+    .section_prefooter .row{
     align-items: center;
     }
 
-.section_prefooter .row .col-md-3{
+    .section_prefooter .row .col-md-3{
     padding: 0;
     margin: 0
-
-}
+    }
 
 }
 
@@ -327,7 +318,6 @@ section_footer span{
     .section_contact-me .row_star{
         width: 60%;
         max-width: 700px;
-    
-
+    }
 
 }

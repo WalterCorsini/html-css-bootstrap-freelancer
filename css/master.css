@@ -1,4 +1,8 @@
-    /* colors */
+ img{
+    max-width: 100%;
+ }
+ 
+ /* colors */
 .bg_tiffany{
     background-color: rgb(26, 188, 156); 
 }
@@ -37,3 +41,8 @@
     max-width: 348px;
 }
 
+/* portfolio */
+.portfolio .row{
+    max-width: 700px;
+    margin: 0 auto;
+}

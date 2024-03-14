@@ -18,6 +18,7 @@
 
 .text_darkgrey{
     color: rgb(44, 62, 80);
+}
 
 img {
     max-width: 100%;
@@ -26,10 +27,10 @@ a{
     color: black;
     background-color: transparent;
 }
-    /* common icon */
 
-}
+/* star icon impossible is nothing */
 
+/* 
 .star-icon{
     display: inline-block;
     font-size: 50px;
@@ -53,8 +54,12 @@ a{
 .line_6{
     position: relative;
     right: 34px;    
-}
-/* /icon */
+} */
+/* star icon impossible is nothing */
+
+
+/* section header */
+
 
 /* section header */
 
@@ -88,7 +93,14 @@ a{
     text-align: center;
 }
 
+.line{
+    height: 10px;
+    border-radius: 10px;
+}
 
+ .star{
+    font-size: 60px;
+}
 
 .ms_title{
     font-size: 3rem;
@@ -112,6 +124,10 @@ a{
     padding: 0;
 }
 
+.section_portfolio .row_star{
+    width: 55%;
+    margin: 0 auto;
+}
 
 .section_portfolio h2{
     font-size: 2rem;
@@ -130,6 +146,12 @@ a{
     margin: 0 auto;
 }
 
+.section_about .row_star{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
 .section_about button{
     background-color: transparent;
     border: 1px solid white;
@@ -146,6 +168,12 @@ ms_contact-me{
 .section_contact-me .star-icon{
     font-size: 30px;
 }
+
+.section_contact-me .row_star{
+    width: 50%;
+    margin: 0 auto;
+}
+
 
 .section_contact-me ul{
     list-style: none;
@@ -253,10 +281,6 @@ section_footer span{
     .section_contact-me hr,
     .section_contact-me ul{
         width: 60%;
-}
-
-.section_contact-me .star-icon{
-    font-size: 50px;
 }
 
 .section_prefooter .row{

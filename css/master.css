@@ -1,0 +1,8 @@
+.bg_darkgrey{
+    background-color: rgb(44, 62, 80);
+}
+
+.nav_bar{
+    max-width: 750px;
+    margin: 0 auto;
+}

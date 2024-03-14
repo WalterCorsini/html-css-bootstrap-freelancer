@@ -24,7 +24,8 @@ img {
     max-width: 100%;
 }
 a{
-    color: black;
+    color: inherit;
+    text-decoration: none;
     background-color: transparent;
 }
 
@@ -67,6 +68,18 @@ a{
     width: 100%;
 }
 
+.section_header ul{
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section_header li{
+    color: white;
+    font-weight: bold;
+}
+
 .ms_header{
     width: 100%;
 }
@@ -84,6 +97,11 @@ a{
 
 .nav_col h2{
     font-size: clamp(15px, 4vw, 40px);
+}
+
+.menu-ham{
+    color: white;
+    font-size: 25px;
 }
 
 /* section hero */
@@ -259,7 +277,6 @@ section_footer span{
     }
     .nav-right{
         display: block;
-        background-color: azure;
     }
    
     .ms_portfolio{

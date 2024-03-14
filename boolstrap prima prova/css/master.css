@@ -1,0 +1,336 @@
+
+/* common */
+.bg_tiffany{
+    background-color: rgb(26, 188, 156);
+}
+
+.bg_darkgrey{
+    background-color: rgb(44, 62, 80);
+}
+
+.bg_grey{
+    background-color: rgb(58, 84, 109);
+}
+
+.text_tiffany{
+color: rgb(26, 188, 156);
+}
+
+.text_darkgrey{
+    color: rgb(44, 62, 80);
+}
+
+img {
+    max-width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* star icon impossible is nothing */
+/* 
+.star-icon{
+    display: inline-block;
+    font-size: 50px;
+}
+
+.line{
+    position: relative;
+    left: 34px;    
+}
+
+.line_2{
+    position: relative;
+    left: 17px;    
+}
+
+.line_5{
+    position: relative;
+    right: 17px;    
+}
+
+.line_6{
+    position: relative;
+    right: 34px;    
+} */
+/* star icon impossible is nothing */
+/* /star icon impossible is nothing */
+
+/* section header */
+
+.section_header{
+    width: 100%;
+}
+
+.section_header ul{
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section_header li{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.section_header li:hover{
+    background-color: rgb(255, 255, 255, 0.1);
+}
+
+.ms_header{
+    width: 100%;
+}
+
+.ms_header .row{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_col a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav_col h2{
+    font-size: clamp(15px, 4vw, 40px);
+}
+
+.menu-ham{
+    color: white;
+    font-size: 25px;
+}
+
+/* section hero */
+
+.section_hero .container{
+    width: 100%;
+    text-align: center;
+}
+
+.line{
+    height: 10px;
+    border-radius: 10px;
+}
+
+ .star{
+    font-size: 60px;
+}
+
+.ms_title{
+    font-size: 3rem;
+}
+
+.ms_text-hero{
+    font-size: 1.4rem;
+    padding: 0;
+}
+
+.hero-img img{
+    max-width: 461px;
+}
+
+.nav-right{
+    display: none;
+}
+
+/* section portfolio */
+.section_portfolio{
+    width: 100%;
+}
+
+.ms_portfolio{
+    width: 100%;
+    padding: 0;
+}
+
+.ms_portfolio .row{
+    width: 90%;
+}
+
+.section_portfolio h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* section about */
+
+.section_about h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.section_about p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section_about button{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: .3rem 1rem;
+}
+
+.section_about button:hover{
+    background-color: rgba(0,0,0, 0.1);
+}
+
+/* section contact-me */
+ms_contact-me{
+    margin: 0 auto;
+}
+
+.section_contact-me .star-icon{
+    font-size: 30px;
+}
+
+.section_contact-me ul{
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.section_contact-me li{
+    border-bottom: 1px solid rgb(44, 62, 80);
+    padding: 20px 0;
+}
+
+.section_contact-me input{
+    border: 0;
+    outline: none;
+}
+
+.section_contact-me hr{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section_contact-me button{
+    border-radius: 10px;
+    padding: .6rem 1.5rem;
+    border: 0;
+    font-weight: 700; 
+}
+
+.contact-me-button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.contact-me-button button:hover{
+    background-color: rgb(52, 226, 191);
+}
+
+/* section prefooter */
+.section_prefooter {
+    width:100%;
+}
+
+.ms_section-prefooter{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section_prefooter ul{
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+
+.section_prefooter i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.ms_section-prefooter .col-6{
+    margin: 0 auto;
+}
+
+/* footer */
+
+.section_footer span{
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 768px){
+    .menu-ham{
+        display: none;
+    }
+    .nav-right{
+        display: block;
+    }
+   
+    .ms_about p{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .section_about .row_star{
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+
+    .about-text{
+        display: flex;
+        width: 60%;
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+    .section_contact-me hr,
+    .section_contact-me ul{
+        width: 60%;
+    }
+
+    .section_contact-me .row_star{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .section_prefooter .row{
+    align-items: center;
+    }
+
+    .section_prefooter .row .col-md-3{
+    padding: 0;
+    margin: 0
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .ms_portfolio{
+        width: 100%;
+    }
+
+   
+    .section_about .row_star{
+        width: 70%;
+        max-width: 700px;
+    }
+
+    .section_contact-me .row_star{
+        width: 60%;
+        max-width: 700px;
+    }
+
+}

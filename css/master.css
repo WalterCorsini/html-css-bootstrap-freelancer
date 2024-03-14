@@ -1,8 +1,39 @@
-.bg_darkgrey{
-    background-color: rgb(44, 62, 80);
+    /* colors */
+.bg_tiffany{
+    background-color: rgb(26, 188, 156); 
 }
 
+.bg_grey{
+    background-color: rgb(58, 84, 109);
+}    
+
+.bg_darkgrey{
+    background-color:rgb(44, 62, 80);
+}
+
+.text_tiffany{
+    color: rgb(26, 188, 156); 
+}
+
+.text_grey{
+    color: rgb(58, 84, 109);
+}    
+
+.text_darkgrey{
+    color:rgb(44, 62, 80);
+}
+
+/* header */
 .nav_bar{
     max-width: 750px;
     margin: 0 auto;
 }
+
+/* main */
+
+/* hero */
+.ms_hero img{
+    width: 50%;
+    max-width: 348px;
+}
+

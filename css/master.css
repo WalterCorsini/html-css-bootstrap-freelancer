@@ -4,16 +4,16 @@
     background-color: rgb(26, 188, 156);
 }
 
-.text_tiffany{
-    color: rgb(26, 188, 156);
-}
-
 .bg_darkgrey{
     background-color: rgb(44, 62, 80);
 }
 
 .bg_grey{
     background-color: rgb(58, 84, 109);
+}
+
+.text_tiffany{
+color: rgb(26, 188, 156);
 }
 
 .text_darkgrey{
@@ -30,7 +30,6 @@ a{
 }
 
 /* star icon impossible is nothing */
-
 /* 
 .star-icon{
     display: inline-block;
@@ -57,10 +56,7 @@ a{
     right: 34px;    
 } */
 /* star icon impossible is nothing */
-
-
-/* section header */
-
+/* /star icon impossible is nothing */
 
 /* section header */
 
@@ -138,17 +134,24 @@ a{
 }
 
 /* section portfolio */
+.section_portfolio{
+    width: 100%;
+}
+
 .ms_portfolio{
+    width: 100%;
     padding: 0;
 }
 
+.ms_portfolio .row{
+    width: 90%;
+}
+
 .section_portfolio .row_star{
-    width: 55%;
-    margin: 0 auto;
 }
 
 .section_portfolio h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -164,10 +167,6 @@ a{
     margin: 0 auto;
 }
 
-.section_about .row_star{
-    width: 50%;
-    margin: 0 auto;
-}
 
 
 .section_about button{
@@ -186,12 +185,6 @@ ms_contact-me{
 .section_contact-me .star-icon{
     font-size: 30px;
 }
-
-.section_contact-me .row_star{
-    width: 50%;
-    margin: 0 auto;
-}
-
 
 .section_contact-me ul{
     list-style: none;
@@ -279,14 +272,16 @@ section_footer span{
         display: block;
     }
    
-    .ms_portfolio{
-        width: 80%;
-    }
-
     .ms_about p{
         width: 60%;
         margin: 0 auto;
     }
+
+    .section_about .row_star{
+        width: 85%;
+        margin: 0 auto;
+    }
+    
 
     .about-text{
         display: flex;
@@ -298,11 +293,16 @@ section_footer span{
     .section_contact-me hr,
     .section_contact-me ul{
         width: 60%;
-}
+    }
+
+    .section_contact-me .row_star{
+        width: 80%;
+        margin: 0 auto;
+    }
 
 .section_prefooter .row{
     align-items: center;
-}
+    }
 
 .section_prefooter .row .col-md-3{
     padding: 0;
@@ -315,8 +315,19 @@ section_footer span{
 @media screen and (min-width: 992px) {
 
     .ms_portfolio{
-        width: 50%;
+        width: 100%;
     }
+
+   
+    .section_about .row_star{
+        width: 70%;
+        max-width: 700px;
+    }
+
+    .section_contact-me .row_star{
+        width: 60%;
+        max-width: 700px;
+    
 
 
 }

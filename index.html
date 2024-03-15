@@ -17,7 +17,7 @@
 
 <body>
     <!-- header -->
-    <header class="bg_darkgrey">
+    <header class="bg_darkgrey fixed-top">
         <!-- navbar -->
         <section class="nav_bar">
             <nav class="navbar navbar-expand-md">
@@ -58,7 +58,7 @@
     <!-- main -->
     <main>
         <!-- hero section -->
-        <section class="ms_hero text-white bg_tiffany">
+        <section class="ms_hero text-white bg_tiffany pt-5">
             <div class="container d-flex flex-column align-items-center">
                 <img class="img-fluid py-3" src="./img/avatar.svg" alt="">
                 <h1>START BOOTSTRAP</h1>
@@ -166,28 +166,25 @@
 
                     <!-- contact-me from -->
                     <form action="">
-                        <div class="form-floating d-flex flex-column gap-3 form_contact-me">
-                            <input type="text" class="input_ p-1 mb-3 form-control" id="name">
-                            <label id="label_" for="name">Name</label>
+                        <div class="form-floating">
+                            <input type="text" class="form-control ms_form-control" placeholder="name" id="name"></input>
+                            <label for="name">Name</label>
                         </div>
 
-                        <div class="form-floating d-flex flex-column gap-3 form_contact-me">
-                            <input type="email" class="input_ p-1 mb-3 form-control" id="email">
-                            <label id="label_" for="email">E-mail Adress</label>
+                        <div class="form-floating">
+                            <input type="text" class="form-control ms_form-control" placeholder="name" id="name"></input>
+                            <label for="name">Name</label>
                         </div>
 
-                        <div class="form-floating d-flex flex-column gap-3 form_contact-me">
-                            <input type="Tel" class="input_ p-1 mb-3 form-control" id="telephone">
-                            <label id="label_" for="telephone">Phone Nuber</label>
+                        <div class="form-floating">
+                            <input type="text" class="form-control ms_form-control" placeholder="name" id="name"></input>
+                            <label for="name">Name</label>
                         </div>
 
-                        <div class="form-floating d-flex flex-column gap-3 form_contact-me">
-                            <textarea class="form-control input_" rows="10" id="comment"></textarea>
-                            <label for="comment">Message</label>
+                        <div class="form-floating">
+                            <textarea type="textarea" rows="3" cols="1" class="form-control ms_form-control ms_textarea" placeholder="message" id="message"></textarea>
+                            <label for="message">Message</label>
                         </div>
-                        <a class="btn bg_tiffany text-white text-start my-3" href="">
-                            Send
-                        </a>
                     </form>
         </section>
         <!-- /contact-me section -->

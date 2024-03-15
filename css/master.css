@@ -52,23 +52,21 @@
 }
 
 /* contact-me */
-form{
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.input_{    border: 0;
+.ms_form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
     border-radius: 0;
-    border-bottom: 1px solid rgb(196, 196, 196);
 }
 
-#label_{
-    top: -10px;
-    left: 0;
-    vertical-align: text-bottom;
+.ms_form-control:focus{
+    box-shadow: none;
+    border-bottom: 1px solid rgb(0, 255, 179);
 }
 
+.form-floating .ms_textarea{
+    height: 100px;
+}
 /* footer */
 
 .top-footer .row{
